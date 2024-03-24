@@ -39,14 +39,14 @@ app.title("Weather App")
 app.geometry("450x400")
 
 # Set background image
-bg_img = Image.open("/Users/bab/Desktop/python/862350.png")
+bg_img = Image.open("862350.png")
 bg_img = ImageTk.PhotoImage(bg_img)
 canvas = Canvas(app, width=450, height=700)
 canvas.pack(fill=BOTH, expand=YES)
 canvas.create_image(0, 0, image=bg_img, anchor="nw")
 
 # Load an image using PIL
-app_icon = Image.open("/Users/bab/Desktop/python/icon.png")
+app_icon = Image.open("icon.png")
 app_icon = ImageTk.PhotoImage(app_icon)
 
 # Set the icon of the app
